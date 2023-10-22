@@ -10,7 +10,10 @@ let person: [string, number] = ["Franco", 26];
 //let extendIncorrectPerson: [string, number] = ["Franco", 26, true]; // Error
 
 //crea una tupla, donde en la primera posicion haya un booleano y en la segunda un string
+let testTupla : [boolean, string] = [true, "Rober"]
 
 //crea un arreglo de strings
+let names : string[] = ["Rober", "Zaracho"]
+let surnames: Array<string> = ["Zaracho", "Sosa"]
 
 export {}
