@@ -50,6 +50,6 @@ anyValue.metodo(); // Todo OK, compila. Falla en tiempo de ejecución si el mét
 let iDontKnow: unknown = "typescript";
 
 //ejercicio
-let nowIKnow: string = iDontKnow; //utiliza el casteo explicito para asignarle a nowIKnow un string;
+let nowIKnow: string = iDontKnow as string; //utiliza el casteo explicito para asignarle a nowIKnow un string;
 
 export {}
