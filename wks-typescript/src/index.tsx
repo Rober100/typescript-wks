@@ -1,16 +1,11 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import "./index.css";
-import App from "./App";
-import reportWebVitals from "./reportWebVitals";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import {Provider} from 'react-redux';
+import store from './store/strore';
 
-const root = ReactDOM.createRoot(
-  document.getElementById("root") as HTMLElement
+ReactDOM.render(
+ <Provider store={store}>
+  <h1>Henry</h1>
+ </Provider>,
+ document.querySelector('#root')
 );
-root.render(
-  <React.StrictMode>
-    <App title="Typescript" />
-  </React.StrictMode>
-);
-
-reportWebVitals();
